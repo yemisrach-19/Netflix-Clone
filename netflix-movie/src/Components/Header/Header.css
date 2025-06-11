@@ -1,0 +1,36 @@
+.header_outer_container {
+  background-color: #141414; /* Example background color */
+  color: white;
+}
+
+.header_container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Add padding for spacing */
+}
+.img {
+  width: 40px;
+}
+.header_left,
+.header_right {
+  display: flex; /* Use flexbox for left and right sections */
+  align-items: center; /* Center items vertically */
+}
+
+.header_left ul,
+.header_right ul {
+  display: flex; /* Display items in a row */
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.header_left li,
+.header_right li {
+  margin: 10px 15px; /* Space out the list items */
+}
+
+.header_left img {
+  margin-right: 20px; /* Add space after the logo */
+}

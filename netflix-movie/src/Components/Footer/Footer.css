@@ -1,0 +1,34 @@
+.footer_icons {
+  display: flex;
+  gap: 16px; /* Adjust the gap size as needed */
+  align-items: center; /* Center the icons vertically */
+}
+
+.footer_outer_container {
+  background-color: black; /* Example background color */
+  padding: 50px; /* Adjust padding as needed */
+  color: white;
+}
+
+.footer_inner_container {
+  max-width: 60%; /* Adjust for your layout */
+  margin: 0 auto; /* Center the container */
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between; /* Adjust layout of the data sections */
+  gap: 10px;
+}
+.footer_data ul {
+  list-style: none;
+}
+
+.service_code {
+  margin-top: 20px; /* Add margin if needed */
+}
+
+.copyright {
+  /* text-align: center; */
+  margin-top: 10px; /* Add margin if needed */
+}
